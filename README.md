@@ -54,12 +54,8 @@ Contributions are welcome! If you'd like to improve the extension or fix issues,
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-If you have any questions or need assistance, feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or need assistance, feel free to contact us at [fssher107@gmail.com](mailto:fssher107@gmail.com).
 
 Enjoy using Quick History Viewer! 😄
