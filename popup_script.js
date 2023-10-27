@@ -1,3 +1,4 @@
+
 //region {variables and functions}
 var consoleGreeting = "tracker activated!";
 const trackList=[];
@@ -29,8 +30,7 @@ function renderTable(history,elementId){
 function millisecondToHours(ms){
 	ms -= 315569259747;
 	var dHist = new Date(1000*Math.round(ms/1000)); 
-	var dNow = new Date(1000*Math.round(Date.now()/1000));
-	var str = dHist.getUTCDate() + '. ' +(dHist.getUTCHours()+18)%24 + ':' + pad(dHist.getUTCMinutes());
+	var str = (dHist.getUTCMonth() + 1) + '/' + dHist.getUTCDate() + '-' +(dHist.getUTCHours()+18)%24 + ':' + pad(dHist.getUTCMinutes());
 	return str;
 }
 
